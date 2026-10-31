@@ -1,0 +1,44 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #222;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a.active {
+  border-bottom: 2px solid #4f9dff;
+}
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  background: #222;
+  color: #aaa;
+}
